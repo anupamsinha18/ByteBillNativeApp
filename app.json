@@ -4,10 +4,10 @@
     "slug": "bytebill",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ByteBill.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ByteBill.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/ByteBill.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.subho722.bytebill"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/ByteBill.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ea414edb-3efc-40b2-8bb2-5a52ef49e2c6"
+      }
     }
   }
 }
